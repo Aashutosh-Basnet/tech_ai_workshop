@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="icon" href="./assets/image.png">
+    <style>
+        .child-parent {
+            background-image: url(./assets/image.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,6 +46,11 @@
             </div>
         </div>
     </main>
+    <div style="height: 100vh; width: 100vw; background-color: red; display: flex;">
+        <div class="child-parent" style="height: 100px; width: 300px; background-color: blue; margin: 20px;"></div>
+        <div class="child-parent" style="height: 100px; width: 300px; background-color: blue; margin: 20px;"></div>
+        <div class="child-parent" style="height: 100px; width: 300px; background-color: blue; margin: 20px;"></div>
+    </div>
     <footer style="display: flex; justify-content: space-around;">
         <div>
             <h2>Aashutosh Basnet</h2>

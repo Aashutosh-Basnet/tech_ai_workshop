@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Aashutosh Basnet</title>
+    <link rel="icon" href="./assets/image.png">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="./assets/image.png" alt="Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-main">
+        <h1>Contact Me</h1>
+        <p>If you want to work together, fill out this form.</p>
+
+        <form id="contactForm">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="firstName">First Name</label>
+                <input id="firstName" type="text" placeholder="Enter first name">
+
+                <label for="lastName">Last Name</label>
+                <input id="lastName" type="text" placeholder="Enter last name">
+
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Enter your email">
+            </fieldset>
+
+            <fieldset>
+                <legend>Project Details</legend>
+
+                <label for="projectType">Project Type</label>
+                <select id="projectType">
+                    <option>Portfolio Website</option>
+                    <option>Landing Page</option>
+                    <option>Personal Blog</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" placeholder="Write your message"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Preference</legend>
+
+                <label class="inline-label">
+                    <input type="radio" name="contactMethod" checked>
+                    Email
+                </label>
+                <label class="inline-label">
+                    <input type="radio" name="contactMethod">
+                    Phone
+                </label>
+            </fieldset>
+
+            <button type="submit">Send Message</button>
+            <p id="formStatus"></p>
+        </form>
+
+        <h2>Contact Availability</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Mode</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sunday - Tuesday</td>
+                    <td>10:00 AM - 4:00 PM</td>
+                    <td>Email</td>
+                </tr>
+                <tr>
+                    <td>Wednesday - Friday</td>
+                    <td>12:00 PM - 6:00 PM</td>
+                    <td>Phone / Email</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Aashutosh Basnet. All rights reserved.</p>
+    </footer>
+    <script src="./scripts/contact.js"></script>
+</body>
+
+</html>

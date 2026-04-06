@@ -1,0 +1,84 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+    padding: 0;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.active-link {
+    font-weight: 700;
+}
+
+.projects-main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.page-title {
+    margin-bottom: 8px;
+}
+
+.page-description {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.project-card {
+    height: 180px;
+    border-radius: 8px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../assets/image.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.project-card h2 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+}
+
+.project-card p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 16px;
+    background: #f5f5f5;
+    color: #444;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+}
+
+.site-footer p {
+    margin: 0;
+}

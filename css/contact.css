@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fafafa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+    padding: 0;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.active-link {
+    font-weight: 700;
+}
+
+.contact-main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 16px 24px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+    color: #444;
+}
+
+form {
+    margin-bottom: 24px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 14px;
+    background: #fff;
+}
+
+legend {
+    padding: 0 6px;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+}
+
+.inline-label {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+input, select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+.inline-label input {
+    width: auto;
+    margin-right: 6px;
+}
+
+button {
+    padding: 8px 14px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 16px;
+    background: #f5f5f5;
+    color: #444;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+}
+
+.site-footer p {
+    margin: 0;
+}
